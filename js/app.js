@@ -136,7 +136,6 @@ function initHard() {
     const sign1 = mathSings[signIndex1];
     const sign2 = mathSings[signIndex2];
 
-    // 1️⃣ birinchi amal bo‘lish sharti
     if (sign1 === '/') {
         while (a <= b || a % b !== 0) {
             a = getRandomNumber(50);
@@ -144,7 +143,6 @@ function initHard() {
         }
     }
 
-    // 2️⃣ ikkinchi amal bo‘lish sharti
     if (sign2 === '/') {
         while (b <= c || b % c !== 0 || c >= (a / b)) {
             b = getRandomNumber(50);
